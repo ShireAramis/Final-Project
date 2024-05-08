@@ -5,45 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <style>
-        /* Common style for all pages */
-        body {
-            font-family: Arial, sans-serif; /* Set font family to Arial */
-            font-size: 20px; /* Set font size to 20px */
-            background-color: green; /* Set background color to green */
-            color: white; /* Set text color to white */
+        /* Style for the navigation bar */
+        nav {
+            background-color: #333;
+            
         }
 
-        /* Style for the navigation links */
         nav a {
-            text-decoration: none;
-            color: white; /* Set text color to white */
-            font-size: 20px; /* Set font size to 20px */
+            float: left;
+            display: 
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: 
         }
 
-        nav a:hover {
-            text-decoration: underline;
+        nav a:{
+            background-color: #ddd;
+            color: black;
         }
+    
 
-        /* Style for page content */
-        #home, #about, #contact {
-            margin: 20px;
-        }
 
-        #home h1, #about h1, #contact h1 {
-            font-size: 28px; /* Larger heading size for emphasis */
-        }
-    </style>
-</head>
-<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <!-- Home Page -->
     <div id="home">
         <h1>Welcome to My Website</h1>
         <p>Soccer Equipment.</p>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </div>
 
+    <!-- About Page -->
+    <div id="about" style="display: none;">
+        <h1>About Us</h1>
+        <p>267 454 1482.</p>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" style="display: none;">
+        <h1>Contact Us</h1>
+        <p>267 454 1482.</p>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </div>
+    </style>
 </body>
 </html>
-
