@@ -1,4 +1,5 @@
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -48,14 +49,16 @@
     <div id="about" style="display: none;">
         <h1>About Us</h1>
         <p>Young producers that work with all the major soccer clubs to provide all the soccer equipment you need.</p>
-        
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
     </div>
 
     <!-- Contact Page -->
     <div id="contact" style="display: none;">
         <h1>Contact Us</h1>
         <p>267 454 1482.</p>
-       
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
     </div>
 
 </body>
