@@ -20,7 +20,8 @@
   <main>
     <section class="hero">
       <h1>Welcome to Soccer Equipment</h1>
-      <img src="soccer_ball.jpg" alt="Soccer Ball">
+      <![image](https://github.com/ShireAramis/Final-Project/assets/143612153/d7d57232-ba8f-453b-8bcb-cf5204933955)
+>
     </section>
   </main>
 
@@ -29,3 +30,4 @@
   </footer>
 </body>
 </html>
+
