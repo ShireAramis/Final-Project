@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Soccer Equipment</title>
+    <title>Soccer Equipment - Contact Us</title>
     <style>
         body {
             background-color: #f0fff0; /* Light green background */
@@ -23,47 +23,24 @@
             text-decoration: none;
             color: white; /* White text for nav links */
             font-size: 20px;
-            cursor: pointer;
         }
         h1 {
             color: #006400; /* Dark green for headings */
         }
-        .section {
-            display: none;
-        }
-        .active {
-            display: block;
-        }
     </style>
-    <script>
-        function showSection(sectionId) {
-            document.getElementById('home').classList.remove('active');
-            document.getElementById('products').classList.remove('active');
-            document.getElementById('contact').classList.remove('active');
-            document.getElementById(sectionId).classList.add('active');
-        }
-    </script>
 </head>
-<body onload="showSection('home')">
+<body>
     <nav>
         <ul>
-            <li><a onclick="showSection('home')">Home</a></li>
-            <li><a onclick="showSection('products')">Products</a></li>
-            <li><a onclick="showSection('contact')">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <div id="home" class="section">
-        <h1>Welcome to Soccer Equipment Store</h1>
-       
-    </div>
-    <div id="products" class="section">
-        <h1>Our Products</h1>
+    <h1>Welcome to The Foot Vault! We love soccer, and we made this website to help you find the best gear for your game. Whether you're a pro or just starting, we've got you covered with great stuff from top brands. We believe having the right gear can make you play better, so let's gear up and have fun playing soccer together!                     
         
-    </div>
-    <div id="contact" class="section">
-        <h1>Contact Us</h1>
-        
-    </div>
+        Call 808-948-9898 for more information</h1>
+    
 </body>
 </html>
 
